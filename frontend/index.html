@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cloud Security Dashboard</title>
+    <script src="https://unpkg.com/htmx.org@1.8.1"></script>
+</head>
+
+<body>
+    <h1>Cloud Security Dashboard</h1>
+    <button hx-get="/security-assessment" hx-target="#results">
+        Fetch Security Data
+    </button>
+    <div id="results"></div>
+</body>
+
+</html>
